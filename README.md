@@ -68,3 +68,21 @@ The application also has a settings window where you can configure everything fr
     - FILTER PREVIEW - a list of strings to filter calendar data. Each side of the table can have its own strings (e.g., for the left - “rehearsals”, for the right - “performances”). The program searches for these strings in the event titles and then fills the appropriate side of the table.
     - ADDITIONAL - a template for additional settings that everyone can use for their purposes
 7. You can set up autostart on Raspberry Pi through `systemd` or `rc.local`
+
+## Dependencies:
+* certifi==2024.6.2
+* charset-normalizer==3.3.2
+* Cython==3.0.10
+* icalendar==5.0.12
+* idna==3.7
+* pyobjc-core==10.3.1
+* pyobjc-framework-Cocoa==10.3.1
+* PyQt5==5.15.10
+* PyQt5-Qt5==5.15.14
+* PyQt5-sip==12.13.0
+* python-dateutil==2.9.0.post0
+* pytz==2024.1
+* requests==2.32.3
+* screeninfo==0.8.1
+* six==1.16.0
+* urllib3==2.2.1
